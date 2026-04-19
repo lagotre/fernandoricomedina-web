@@ -7,18 +7,12 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Photo placeholder */}
           <div className="relative">
-            <div className="aspect-[4/5] rounded-sm bg-white/5 border border-white/10 flex items-center justify-center overflow-hidden">
-              {/* Replace with: <Image src={LINKS.photo} alt="Fernando Rico Medina" fill className="object-cover" /> */}
-              <div className="text-center p-8">
-                <div className="text-6xl mb-4 opacity-20">👤</div>
-                <p className="text-white/30 text-sm">
-                  Reemplaza este bloque con tu foto.
-                  <br />
-                  Agrega la ruta en{" "}
-                  <code className="text-brand-gold/60">[FOTO_FERNANDO]</code>{" "}
-                  en <code className="text-brand-gold/60">lib/data.ts</code>
-                </p>
-              </div>
+            <div className="aspect-[4/5] rounded-sm overflow-hidden">
+              <img
+                src="/FERNANDO-RICO.png"
+                alt="Fernando Rico Medina"
+                className="w-full h-full object-cover object-top"
+              />
             </div>
             {/* Gold accent */}
             <div className="absolute -bottom-4 -right-4 w-24 h-24 border border-brand-gold/30 rounded-sm -z-0" />
