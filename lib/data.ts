@@ -36,7 +36,8 @@ export const CREDIBILITY = {
     { value: "IA",  label: "implementación estratégica real" },
   ],
   roles: [
-    "Gerente Comercial — Diforma In Store",
+    "Gerente Comercial — Diforma Group",
+    "Gerente Comercial — Digitalli Agency",
     "Consultor Estratégico — Disenni",
     "Socio Estratégico — Marketeros Agencia",
   ],
