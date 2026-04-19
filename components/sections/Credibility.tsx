@@ -1,7 +1,7 @@
 import { CREDIBILITY, LINKS } from "@/lib/data";
 
 const logos = [
-  { src: "/logo-diforma1.jpg",          alt: "Diforma In Store" },
+  { src: "/Diforma Group.png",           alt: "Diforma Group" },
   { src: "/logo-disenni-2019.png",      alt: "Disenni" },
   { src: "/marketeros-logo-refinal.png", alt: "Marketeros Agencia" },
   { src: "/logo_digitalli-1.png",       alt: "Digitalli" },
