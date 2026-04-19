@@ -37,7 +37,7 @@ export const CREDIBILITY = {
   ],
   roles: [
     "Gerente Comercial — Diforma Group",
-    "Gerente Comercial — Digitalli Agency",
+    "Gerente General — Digitalli Agency",
     "Consultor Estratégico — Disenni",
     "Socio Estratégico — Marketeros Agencia",
   ],
