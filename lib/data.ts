@@ -1,6 +1,6 @@
 // ─── PLACEHOLDERS ───────────────────────────────────────────────────────────
 export const LINKS = {
-  calendly:  "[LINK_CALENDLY]",          // e.g. https://calendly.com/fernandoricomedina
+  calendly:  "https://calendar.app.google/xeUnstkbZ88rqKmLA",
   whatsapp:  "https://api.whatsapp.com/send/?phone=573158994202&text&type=phone_number&app_absent=0",
   linkedin:  "https://www.linkedin.com/in/fernando-rico-medina/",
   email:     "mailto:fernando.rico@grupodiforma.com",

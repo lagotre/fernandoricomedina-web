@@ -74,16 +74,17 @@ export default function Diagnostic() {
           </p>
         </div>
 
-        {/* Calendly placeholder */}
-        <div className="mt-16 border-2 border-dashed border-brand-gold/30 rounded-sm p-10 text-center bg-white">
-          <p className="text-brand-muted text-sm mb-2 uppercase tracking-widest">Integración Calendly</p>
-          <p className="text-brand-navy font-medium">
-            Aquí se integrará el widget de Calendly.
-          </p>
-          <p className="text-brand-muted text-sm mt-1">
-            Reemplaza <code className="bg-gray-100 px-1 py-0.5 rounded text-xs">[LINK_CALENDLY]</code> con tu URL real en{" "}
-            <code className="bg-gray-100 px-1 py-0.5 rounded text-xs">lib/data.ts</code>
-          </p>
+        {/* Agenda CTA */}
+        <div className="mt-16 bg-brand-navy rounded-sm p-10 text-center">
+          <p className="text-white/60 text-sm mb-4">¿Prefieres agendar directamente?</p>
+          <a
+            href="https://calendar.app.google/xeUnstkbZ88rqKmLA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-brand-gold text-brand-dark font-semibold px-8 py-4 rounded-sm hover:bg-brand-gold-light transition-colors duration-200 text-sm"
+          >
+            Abrir calendario y reservar →
+          </a>
         </div>
       </div>
     </section>
