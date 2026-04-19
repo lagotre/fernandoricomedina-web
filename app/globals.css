@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+:root {
+  --font-inter: 'Inter', system-ui, sans-serif;
+  --font-playfair: 'Playfair Display', Georgia, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-inter);
+  background-color: #F8F7F4;
+  color: #111827;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Utility classes */
+.section-padding {
+  @apply px-4 sm:px-6 lg:px-8 py-20 md:py-28;
+}
+
+.container-max {
+  @apply max-w-6xl mx-auto;
+}
+
+.gold-line {
+  @apply block w-12 h-0.5 bg-brand-gold mt-4 mb-6;
+}
+
+/* Smooth scroll offset for sticky nav */
+[id] {
+  scroll-margin-top: 80px;
+}
