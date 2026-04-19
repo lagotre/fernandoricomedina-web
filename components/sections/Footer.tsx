@@ -49,7 +49,7 @@ export default function Footer() {
                   href={LINKS.email}
                   className="text-white/60 hover:text-brand-gold text-sm transition-colors duration-200"
                 >
-                  [EMAIL]
+                  fernando.rico@grupodiforma.com
                 </a>
               </li>
               <li>

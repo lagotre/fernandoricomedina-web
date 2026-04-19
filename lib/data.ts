@@ -1,9 +1,9 @@
 // ─── PLACEHOLDERS ───────────────────────────────────────────────────────────
 export const LINKS = {
   calendly:  "[LINK_CALENDLY]",          // e.g. https://calendly.com/fernandoricomedina
-  whatsapp:  "https://wa.me/[WHATSAPP]", // e.g. https://wa.me/573001234567
-  linkedin:  "[LINKEDIN]",               // e.g. https://linkedin.com/in/fernandoricomedina
-  email:     "mailto:[EMAIL]",           // e.g. mailto:hola@fernandoricomedina.com
+  whatsapp:  "https://api.whatsapp.com/send/?phone=573158994202&text&type=phone_number&app_absent=0",
+  linkedin:  "https://www.linkedin.com/in/fernando-rico-medina/",
+  email:     "mailto:fernando.rico@grupodiforma.com",
   photo:     "[FOTO_FERNANDO]",          // URL o ruta local de tu foto
 };
 
