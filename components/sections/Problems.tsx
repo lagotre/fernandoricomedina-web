@@ -5,43 +5,36 @@ export default function Problems() {
     <section id="problemas" className="section-padding bg-brand-surface">
       <div className="container-max">
         {/* Header */}
-        <div className="max-w-2xl mb-16">
-          <p className="text-brand-gold text-xs tracking-widest uppercase mb-4">Reconoces alguno de estos escenarios</p>
+        <div className="max-w-2xl mb-12">
+          <p className="text-brand-gold text-xs tracking-widest uppercase mb-4">{PROBLEMS.eyebrow}</p>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-semibold text-brand-navy leading-tight">
-            Los problemas que más le cuestan a las empresas hoy.
+            {PROBLEMS.headline}
           </h2>
           <span className="gold-line" />
-          <p className="text-brand-muted text-lg">
-            No son problemas de tecnología. Son problemas de estrategia, foco y decisión.
-          </p>
+          <p className="text-brand-muted text-lg leading-relaxed">{PROBLEMS.intro}</p>
         </div>
 
-        {/* Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-14">
-          {PROBLEMS.map((p) => (
-            <div
-              key={p.title}
-              className="bg-white border border-gray-100 p-8 rounded-sm hover:border-brand-gold/40 hover:shadow-md transition-all duration-300 group"
+        {/* Symptom list */}
+        <ul className="grid sm:grid-cols-2 gap-4 mb-12 max-w-4xl">
+          {PROBLEMS.items.map((item) => (
+            <li
+              key={item}
+              className="flex items-start gap-3 bg-white border border-gray-100 p-5 rounded-sm text-brand-navy text-sm leading-relaxed"
             >
-              <div className="text-3xl mb-4">{p.icon}</div>
-              <h3 className="font-semibold text-brand-navy text-lg mb-3 group-hover:text-brand-dark transition-colors">
-                {p.title}
-              </h3>
-              <p className="text-brand-muted text-sm leading-relaxed">{p.body}</p>
-            </div>
+              <span className="w-1.5 h-1.5 rounded-full bg-brand-gold mt-2 flex-shrink-0" />
+              {item}
+            </li>
           ))}
-        </div>
+        </ul>
 
-        {/* CTA inline */}
-        <div className="text-center">
-          <p className="text-brand-muted mb-6 text-base">
-            Si reconociste al menos uno, el diagnóstico estratégico es para ti.
-          </p>
+        {/* Closing */}
+        <div className="max-w-2xl">
+          <p className="text-brand-muted text-base leading-relaxed mb-8">{PROBLEMS.closing}</p>
           <a
             href={LINKS.calendly}
             className="inline-flex items-center gap-2 bg-brand-navy text-white font-semibold px-8 py-4 rounded-sm hover:bg-brand-dark transition-colors duration-200 text-sm tracking-wide"
           >
-            Agenda tu diagnóstico de 45 minutos
+            Agenda tu diagnóstico estratégico
           </a>
         </div>
       </div>

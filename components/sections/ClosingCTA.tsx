@@ -15,7 +15,7 @@ export default function ClosingCTA() {
       />
 
       <div className="container-max relative z-10 text-center max-w-3xl mx-auto">
-        <p className="text-brand-gold text-xs tracking-widest uppercase mb-6">Es el momento</p>
+        <p className="text-brand-gold text-xs tracking-widest uppercase mb-6">Conversemos</p>
         <h2 className="font-display text-3xl md:text-5xl lg:text-6xl font-semibold leading-tight mb-6">
           {CLOSING.headline}
         </h2>

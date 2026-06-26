@@ -1,11 +1,4 @@
-import { CREDIBILITY, LINKS } from "@/lib/data";
-
-const logos = [
-  { src: "/Diforma Group.png",           alt: "Diforma Group" },
-  { src: "/logo-disenni-2019.png",      alt: "Disenni" },
-  { src: "/marketeros-logo-refinal.png", alt: "Marketeros Agencia" },
-  { src: "/logo_digitalli-1.png",       alt: "Digitalli" },
-];
+import { CREDIBILITY, ECOSYSTEM, LINKS } from "@/lib/data";
 
 export default function Credibility() {
   return (
@@ -24,18 +17,27 @@ export default function Credibility() {
         </div>
       </div>
 
-      {/* Logos */}
+      {/* Ecosistema empresarial */}
       <div className="border-b border-white/10">
-        <div className="container-max px-4 sm:px-6 lg:px-8 py-10">
-          <p className="text-white/30 text-xs tracking-widest uppercase text-center mb-8">Empresas con las que trabajo</p>
-          <div className="flex flex-wrap items-center justify-center gap-10">
-            {logos.map((logo) => (
-              <img
-                key={logo.alt}
-                src={logo.src}
-                alt={logo.alt}
-                className="h-10 object-contain brightness-0 invert opacity-60 hover:opacity-100 transition-opacity duration-300"
-              />
+        <div className="container-max px-4 sm:px-6 lg:px-8 py-14 md:py-16">
+          <div className="max-w-2xl mb-10">
+            <p className="text-brand-gold text-xs tracking-widest uppercase mb-4">{ECOSYSTEM.eyebrow}</p>
+            <h3 className="font-display text-2xl md:text-3xl font-semibold leading-tight mb-3">
+              {ECOSYSTEM.headline}
+            </h3>
+            <p className="text-white/60 leading-relaxed">{ECOSYSTEM.intro}</p>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {ECOSYSTEM.companies.map((c) => (
+              <div key={c.name} className="bg-white/5 border border-white/10 rounded-sm p-6">
+                <img
+                  src={c.logo}
+                  alt={c.name}
+                  className="h-8 object-contain object-left brightness-0 invert opacity-80 mb-4"
+                />
+                <p className="text-white/60 text-sm leading-relaxed">{c.desc}</p>
+              </div>
             ))}
           </div>
         </div>

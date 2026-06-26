@@ -1,4 +1,4 @@
-import { LINKS } from "@/lib/data";
+import { LINKS, SEO } from "@/lib/data";
 
 const footerLinks = [
   { label: "Servicios",    href: "#servicios" },
@@ -19,7 +19,7 @@ export default function Footer() {
               Fernando Rico<span className="text-brand-gold">.</span>
             </p>
             <p className="text-white/50 text-sm leading-relaxed max-w-xs">
-              Consultor estratégico en innovación, transformación digital e implementación de IA para empresas en Colombia y LATAM.
+              {SEO.description}
             </p>
           </div>
 

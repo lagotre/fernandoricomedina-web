@@ -10,12 +10,16 @@ export default function Diagnostic() {
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-semibold text-brand-navy leading-tight mb-6">
             {DIAGNOSTIC.headline}
           </h2>
-          <p className="text-brand-muted text-lg leading-relaxed">{DIAGNOSTIC.sub}</p>
+          <div className="space-y-4">
+            {DIAGNOSTIC.sub.map((p, i) => (
+              <p key={i} className="text-brand-muted text-lg leading-relaxed">{p}</p>
+            ))}
+          </div>
         </div>
 
-        {/* What's included */}
+        {/* What you'll get clarity on */}
         <div className="bg-brand-navy text-white rounded-sm p-8 md:p-12 mb-14 max-w-3xl mx-auto">
-          <p className="text-brand-gold text-xs tracking-widest uppercase mb-6">Qué incluye la sesión</p>
+          <p className="text-brand-gold text-xs tracking-widest uppercase mb-6">Al finalizar, tendrás claridad sobre</p>
           <ul className="space-y-4">
             {DIAGNOSTIC.included.map((item) => (
               <li key={item} className="flex items-start gap-3 text-white/80">
@@ -26,64 +30,14 @@ export default function Diagnostic() {
           </ul>
         </div>
 
-        {/* Pricing cards */}
-        <div>
-          <p className="text-center text-brand-muted text-sm mb-10 uppercase tracking-widest">
-            Selecciona tu plan según el tamaño de tu empresa
-          </p>
-          <div className="grid md:grid-cols-3 gap-6">
-            {DIAGNOSTIC.plans.map((plan) => (
-              <div
-                key={plan.name}
-                className={`relative rounded-sm border p-8 text-center transition-all duration-300 ${
-                  plan.featured
-                    ? "border-brand-gold bg-brand-navy text-white shadow-xl scale-105"
-                    : "border-gray-200 bg-white text-brand-navy hover:border-brand-gold/40 hover:shadow-md"
-                }`}
-              >
-                {plan.featured && (
-                  <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-brand-gold text-brand-dark text-xs font-bold px-4 py-1 rounded-full tracking-wide">
-                    MÁS ELEGIDO
-                  </div>
-                )}
-                <p className={`text-sm font-medium mb-2 ${plan.featured ? "text-brand-gold" : "text-brand-muted"}`}>
-                  {plan.name}
-                </p>
-                <div className={`font-display text-4xl font-semibold mb-1 ${plan.featured ? "text-white" : "text-brand-navy"}`}>
-                  {plan.price}
-                </div>
-                <p className={`text-xs mb-8 ${plan.featured ? "text-white/50" : "text-brand-muted"}`}>
-                  {plan.desc}
-                </p>
-                <a
-                  href={LINKS.calendly}
-                  className={`block w-full py-3 rounded-sm text-sm font-semibold transition-colors duration-200 ${
-                    plan.featured
-                      ? "bg-brand-gold text-brand-dark hover:bg-brand-gold-light"
-                      : "border border-brand-navy text-brand-navy hover:bg-brand-navy hover:text-white"
-                  }`}
-                >
-                  {plan.cta}
-                </a>
-              </div>
-            ))}
-          </div>
-
-          <p className="text-center text-brand-muted text-xs mt-8">
-            Pago seguro · Sesión virtual · Reagendamiento sin costo con 24h de anticipación
-          </p>
-        </div>
-
         {/* Agenda CTA */}
-        <div className="mt-16 bg-brand-navy rounded-sm p-10 text-center">
-          <p className="text-white/60 text-sm mb-4">¿Prefieres agendar directamente?</p>
+        <div className="bg-brand-navy rounded-sm p-10 text-center max-w-3xl mx-auto">
+          <p className="text-white/60 text-sm mb-4">Cuando quieras, agenda tu sesión.</p>
           <a
-            href="https://calendar.app.google/xeUnstkbZ88rqKmLA"
-            target="_blank"
-            rel="noopener noreferrer"
+            href={LINKS.calendly}
             className="inline-flex items-center gap-2 bg-brand-gold text-brand-dark font-semibold px-8 py-4 rounded-sm hover:bg-brand-gold-light transition-colors duration-200 text-sm"
           >
-            Abrir calendario y reservar →
+            {DIAGNOSTIC.cta} →
           </a>
         </div>
       </div>

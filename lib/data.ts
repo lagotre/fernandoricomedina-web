@@ -9,182 +9,191 @@ export const LINKS = {
 
 // ─── SEO ────────────────────────────────────────────────────────────────────
 export const SEO = {
-  title:       "Fernando Rico Medina | Consultor en Innovación, IA y Transformación Digital",
-  description: "Diagnóstico estratégico de 45 minutos con Fernando Rico Medina: 27 años de experiencia en innovación, transformación digital e implementación de IA para empresas en Colombia y LATAM.",
+  title:       "Fernando Rico Medina | Estrategia Comercial, Marketing, Canales e IA",
+  description: "Ayudo a empresas latinoamericanas a ordenar su estrategia comercial, fortalecer sus canales y aplicar marketing, innovación e inteligencia artificial con sentido práctico.",
   url:         "https://fernandoricomedina.com",
 };
 
 // ─── COPY HERO ───────────────────────────────────────────────────────────────
 export const HERO = {
-  headline:    "Transforma tu empresa antes de que el mercado te obligue.",
-  sub:         "Soy Fernando Rico Medina. Llevo 27 años acompañando a líderes empresariales a tomar decisiones estratégicas con claridad — hoy, con el poder de la IA como aliada.",
-  cta:         "Agenda tu diagnóstico estratégico",
-  ctaSecondary:"Ver cómo trabajo",
-  alternativeHeadlines: [
-    "Tu empresa tiene más potencial del que está usando. Hablemos.",
-    "Innovación no es tecnología. Es decisión estratégica. Te ayudo a tomarla.",
-    "27 años, cientos de empresas, un diagnóstico que cambia el rumbo.",
+  headline:    "Consultoría en estrategia comercial, marketing, canales e inteligencia artificial para empresas que quieren crecer con más método.",
+  sub: [
+    "Soy Fernando Rico Medina. Durante más de 27 años he trabajado con empresas manufactureras, marcas de consumo, agencias, equipos comerciales y compañías familiares que necesitan ordenar su crecimiento, fortalecer sus canales y tomar mejores decisiones de marketing y ventas.",
+    "Mi trabajo no está en decirte cómo producir mejor. Está en ayudarte a que tu producto llegue mejor al mercado, se comunique con más claridad, gane visibilidad en el canal y construya ventas más rentables y sostenibles.",
+    "Acompaño empresarios y equipos directivos en temas de estrategia comercial, trade marketing, shopper marketing, e-commerce, marca, innovación e inteligencia artificial aplicada a marketing y ventas.",
   ],
+  cta:         "Agendar conversación estratégica",
+  ctaSecondary:"Ver cómo puedo ayudarte",
 };
 
 // ─── CREDIBILIDAD ────────────────────────────────────────────────────────────
 export const CREDIBILITY = {
   stats: [
     { value: "27+", label: "años de experiencia empresarial" },
-    { value: "3",   label: "roles ejecutivos simultáneos" },
+    { value: "4",   label: "roles ejecutivos simultáneos" },
     { value: "LATAM", label: "alcance geográfico" },
     { value: "IA",  label: "implementación estratégica real" },
   ],
   roles: [
-    "Gerente Comercial — Diforma Group",
-    "Gerente General — Digitalli Agency",
-    "Consultor Estratégico — Disenni",
+    "Socio fundador — Grupo Diforma",
+    "Gerente de Mercadeo — Diforma",
+    "Gerente General — Digitalli",
     "Socio Estratégico — Marketeros Agencia",
   ],
   formation: [
     "Diseñador Industrial — Pontificia Universidad Javeriana",
-    "Formación en Marketing Digital",
-    "Especialización en Innovación y Experiencia del Cliente",
+    "Posgrado en Marketing Digital",
+    "Posgrado en Comercio Electrónico",
+  ],
+};
+
+// ─── ECOSISTEMA EMPRESARIAL ───────────────────────────────────────────────────
+export const ECOSYSTEM = {
+  eyebrow:  "Ecosistema empresarial",
+  headline: "No trabajo solo: conecto estrategia con ejecución.",
+  intro:    "Una diferencia importante de mi trabajo es que puedo acompañar la estrategia y, cuando el proyecto lo requiere, conectar la ejecución con equipos especializados.",
+  companies: [
+    {
+      name: "Diforma In Store",
+      logo: "/Diforma Group.png",
+      desc: "Diseño y fabricación de soluciones de visibilidad, exhibición, material POP y activación para marcas en punto de venta.",
+    },
+    {
+      name: "Digitalli",
+      logo: "/logo_digitalli-1.png",
+      desc: "Branding, diseño, contenido, sitios web, e-commerce, comunicación digital y activos comerciales para marcas y empresas.",
+    },
+    {
+      name: "Disenni",
+      logo: "/logo-disenni-2019.png",
+      desc: "Innovación, diseño estratégico, cultura de innovación, metodologías de creatividad aplicada y gestión del cambio.",
+    },
+    {
+      name: "Marketeros Agencia",
+      logo: "/marketeros-logo-refinal.png",
+      desc: "CRM, automatización comercial, marketing digital, Zoho, performance e integración de procesos comerciales y digitales.",
+    },
   ],
 };
 
 // ─── PROBLEMAS ───────────────────────────────────────────────────────────────
-export const PROBLEMS = [
-  {
-    icon: "⚡",
-    title: "Tu competencia ya está usando IA.",
-    body:  "Y tú sigues evaluando si es el momento correcto. Cada mes de espera es terreno cedido.",
-  },
-  {
-    icon: "🧭",
-    title: "Tienes muchas iniciativas, pocos resultados.",
-    body:  "La transformación digital no falla por falta de tecnología — falla por falta de estrategia.",
-  },
-  {
-    icon: "📉",
-    title: "Tu modelo de negocio está siendo presionado.",
-    body:  "El retail, el B2B, el marketing: todos están cambiando más rápido de lo que se puede planear.",
-  },
-  {
-    icon: "🤝",
-    title: "Tu equipo no está alineado.",
-    body:  "Líderes que no hablan el mismo idioma estratégico frenan hasta los mejores proyectos.",
-  },
-  {
-    icon: "🔍",
-    title: "No sabes por dónde empezar con la IA.",
-    body:  "Hay mucho ruido y pocas certezas. Necesitas a alguien que traduzca potencial en acción.",
-  },
-  {
-    icon: "📊",
-    title: "Tus datos no te generan decisiones.",
-    body:  "Tienes información pero no inteligencia. La estrategia convierte datos en ventaja competitiva.",
-  },
-];
+export const PROBLEMS = {
+  eyebrow:  "Reconoces alguno de estos escenarios",
+  headline: "Cuando una empresa produce bien, pero crecer se vuelve cada vez más difícil.",
+  intro:    "Muchas pymes latinoamericanas tienen buenos productos, buenos equipos y años de experiencia. Sin embargo, empiezan a encontrar barreras comerciales que no se resuelven solo con más vendedores, más descuentos o más publicaciones en redes.",
+  items: [
+    "El margen se reduce por presión del canal, descuentos o falta de diferenciación.",
+    "La empresa depende demasiado de pocos clientes o distribuidores.",
+    "El producto compite bien en calidad, pero pierde visibilidad en el punto de venta.",
+    "El equipo comercial trabaja duro, pero sigue vendiendo con métodos de hace 10 o 15 años.",
+    "El canal digital existe, pero no está integrado a la estrategia comercial.",
+    "La empresa quiere usar inteligencia artificial, pero no sabe por dónde empezar ni qué casos tienen sentido real para su negocio.",
+  ],
+  closing: "Mi trabajo empieza ahí: en ordenar el problema, separar lo urgente de lo importante y construir una ruta de acción que el equipo pueda ejecutar.",
+};
 
 // ─── SERVICIOS ───────────────────────────────────────────────────────────────
 export const SERVICES = [
   {
-    title:   "Diagnóstico Estratégico",
-    tag:     "Más solicitado",
-    desc:    "45 minutos de conversación focalizada para identificar el bloqueo más costoso de tu empresa y definir los primeros pasos reales.",
+    title:   "Estrategia comercial y crecimiento",
+    tag:     "",
+    desc:    "Acompaño a empresarios y equipos directivos a revisar su modelo comercial, identificar oportunidades de crecimiento, priorizar canales y tomar decisiones más claras sobre mercado, portafolio, precio, comunicación y ventas.",
     bullets: [
-      "Análisis de tu situación actual vs. potencial",
-      "Identificación del cuello de botella principal",
-      "Hoja de ruta de acción inmediata",
-      "Sin venta encubierta — solo valor estratégico",
+      "Diagnóstico comercial",
+      "Revisión de canales",
+      "Priorización de oportunidades",
+      "Plan de acción a 90 días",
+      "Acompañamiento estratégico para la ejecución",
     ],
   },
   {
-    title:   "Consultoría en Transformación Digital",
+    title:   "Trade marketing y shopper marketing",
     tag:     "",
-    desc:    "Acompañamiento estratégico para diseñar e implementar procesos de cambio digital que generen resultados medibles en tu organización.",
+    desc:    "He trabajado durante años en el diseño de estrategias de visibilidad, exhibición y activación en punto de venta para marcas de consumo, alimentos, bebidas, cuidado personal, retail y empresas manufactureras. Ayudo a que las marcas entiendan mejor cómo competir en el canal y convertir la visibilidad en rotación.",
     bullets: [
-      "Diagnóstico de madurez digital",
-      "Diseño del roadmap de transformación",
-      "Gestión del cambio organizacional",
-      "Indicadores y seguimiento de impacto",
+      "Estrategia de punto de venta",
+      "Material POP y exhibición",
+      "Activaciones comerciales",
+      "Comunicación para shopper",
+      "Planes de visibilidad para canal moderno, tradicional o distribuidores",
     ],
   },
   {
-    title:   "Implementación Estratégica de IA",
+    title:   "E-commerce y canales digitales",
     tag:     "",
-    desc:    "No hablo de IA en abstracto. Identifico los casos de uso concretos donde la IA genera valor real en tu empresa — y te ayudo a ejecutarlos.",
+    desc:    "Acompaño empresas que quieren desarrollar o mejorar su canal digital sin desconectarlo de su realidad comercial. El e-commerce no debe ser una isla; debe integrarse con ventas, marca, servicio, inventario, comunicación y experiencia de cliente.",
     bullets: [
-      "Identificación de casos de uso de alto impacto",
-      "Selección de herramientas adecuadas para tu contexto",
-      "Piloto e implementación supervisada",
+      "Diseño estratégico del canal digital",
+      "Revisión de sitio web o tienda online",
+      "Estrategia de contenidos y conversión",
+      "Integración con CRM y procesos comerciales",
+      "Desarrollo de activos digitales junto a equipos especializados",
+    ],
+  },
+  {
+    title:   "Inteligencia artificial aplicada a marketing y ventas",
+    tag:     "",
+    desc:    "La inteligencia artificial no debe implementarse por moda. Debe resolver problemas concretos del negocio. Trabajo con empresas para identificar casos de uso viables en marketing, ventas, contenido, análisis comercial, atención al cliente, automatización y productividad de equipos.",
+    bullets: [
+      "Identificación de casos de uso",
+      "Priorización según impacto y facilidad de implementación",
+      "Diseño de pilotos",
       "Capacitación de equipos",
+      "Acompañamiento en adopción práctica",
     ],
   },
   {
-    title:   "Innovación y Gestión del Cambio",
+    title:   "Innovación y gestión del cambio",
     tag:     "",
-    desc:    "Programas de innovación estructurada para empresas que quieren dejar de improvisar y empezar a innovar con metodología y propósito.",
+    desc:    "Acompaño procesos de innovación empresarial con enfoque práctico. No se trata solo de hacer talleres creativos, sino de convertir ideas en iniciativas priorizadas, medibles y conectadas con los objetivos del negocio.",
     bullets: [
-      "Talleres de cultura de innovación",
+      "Talleres de innovación",
       "Design Thinking aplicado al negocio",
-      "Portafolio de iniciativas priorizadas",
-      "Métricas de innovación",
+      "Priorización de iniciativas",
+      "Cultura de innovación",
+      "Acompañamiento a equipos internos",
     ],
   },
 ];
 
-// ─── DIAGNÓSTICO / PRECIOS ────────────────────────────────────────────────────
+// ─── DIAGNÓSTICO ──────────────────────────────────────────────────────────────
 export const DIAGNOSTIC = {
-  headline: "45 minutos que pueden reorientar el rumbo de tu empresa",
-  sub:      "Una conversación estratégica, directa y sin rodeos. Sin ventas encubiertas. Sin presentaciones de PowerPoint. Solo diagnóstico real y acción concreta.",
+  headline: "Una conversación para ordenar el problema y definir prioridades",
+  sub: [
+    "El diagnóstico estratégico es una sesión de trabajo para entender tu situación actual, revisar los principales retos comerciales y definir una ruta inicial de acción.",
+    "No es una charla genérica ni una presentación comercial. Es una conversación estructurada para identificar dónde puede estar el mayor bloqueo: canal, propuesta de valor, visibilidad, equipo comercial, comunicación, e-commerce, pricing, marca o adopción tecnológica.",
+  ],
   included: [
-    "Análisis de tu situación competitiva actual",
-    "Identificación del mayor freno a tu crecimiento",
-    "Evaluación del potencial de IA en tu operación",
-    "Recomendaciones accionables con prioridades claras",
-    "Grabación de la sesión para tu equipo",
+    "Qué problema conviene resolver primero",
+    "Qué oportunidades tienen mayor impacto",
+    "Qué acciones pueden ejecutarse en el corto plazo",
+    "Qué capacidades necesita fortalecer tu equipo",
+    "Qué rol podría tener la inteligencia artificial en tu operación comercial",
   ],
-  plans: [
-    {
-      name:  "Empresa pequeña",
-      price: "USD 50",
-      desc:  "Hasta 50 empleados",
-      cta:   "Reservar sesión",
-    },
-    {
-      name:  "Empresa mediana",
-      price: "USD 100",
-      desc:  "50 a 500 empleados",
-      cta:   "Reservar sesión",
-      featured: true,
-    },
-    {
-      name:  "Empresa grande",
-      price: "USD 200",
-      desc:  "Más de 500 empleados",
-      cta:   "Reservar sesión",
-    },
-  ],
+  cta: "Agendar diagnóstico estratégico",
 };
 
 // ─── METODOLOGÍA ─────────────────────────────────────────────────────────────
 export const METHODOLOGY = [
   {
     step: "01",
-    title: "Escucha estratégica",
-    desc:  "Antes de proponer, entiendo. Hago las preguntas que nadie más hace para llegar a la raíz del problema, no a los síntomas.",
+    title: "Entender el negocio",
+    desc:  "Antes de proponer soluciones, necesito comprender cómo vendes, a quién le vendes, qué canales usas, cómo se comporta tu cliente y cuáles son las restricciones reales de tu empresa.",
   },
   {
     step: "02",
-    title: "Diagnóstico con perspectiva",
-    desc:  "27 años de experiencia en múltiples industrias me permiten ver patrones que desde adentro de la empresa son invisibles.",
+    title: "Identificar el problema principal",
+    desc:  "Muchas empresas intentan resolver demasiadas cosas al tiempo. Mi trabajo es ayudarte a identificar qué bloqueo comercial está afectando más el crecimiento o la rentabilidad.",
   },
   {
     step: "03",
-    title: "Claridad antes que complejidad",
-    desc:  "No entrego reportes de 80 páginas. Entrego foco: las 3 acciones que mueven el 80% del resultado.",
+    title: "Priorizar acciones",
+    desc:  "No entrego listas interminables de recomendaciones. Construyo contigo una ruta concreta, con prioridades, responsables y decisiones claras.",
   },
   {
     step: "04",
-    title: "Acompañamiento real",
-    desc:  "No desaparezco después de la sesión. Estoy disponible para asegurar que la estrategia se convierte en ejecución.",
+    title: "Acompañar la ejecución",
+    desc:  "La estrategia solo sirve si se convierte en acción. Por eso puedo acompañarte en la implementación, ya sea con tu equipo interno, con tus proveedores actuales o con los equipos especializados de mi ecosistema empresarial.",
   },
 ];
 
@@ -213,46 +222,46 @@ export const EXPERIENCE = {
 
 // ─── SOBRE MÍ ─────────────────────────────────────────────────────────────────
 export const ABOUT = {
-  headline: "No soy el consultor que te dice lo que quieres oír.",
+  headline: "He construido empresas, acompañado marcas y aprendido de los retos reales del mercado.",
   body: [
-    "Llevo 27 años en el mundo empresarial colombiano y latinoamericano. He vendido, gestionado equipos, construido marcas, fallado y aprendido. No tengo fórmulas mágicas — tengo perspectiva real.",
-    "Soy Diseñador Industrial de la Javeriana, lo que significa que pienso en sistemas, en flujos y en la experiencia completa. Eso me hace diferente como consultor: veo la empresa como un todo, no como compartimentos.",
-    "Hoy dirijo el área comercial de Diforma In Store, asesoro empresas en Disenni y soy socio estratégico de Marketeros Agencia. Vivo en el mismo mundo ejecutivo que tú — y eso se nota en cada sesión.",
-    "Si buscas alguien que te diga que todo está bien, no soy tu consultor. Si buscas claridad, foco y acción real, hablemos.",
+    "Soy Diseñador Industrial de la Pontificia Universidad Javeriana y tengo formación de posgrado en marketing digital y comercio electrónico. Durante más de 27 años he trabajado en la intersección entre producto, marca, canal, experiencia de cliente y ventas.",
+    "He sido empresario, consultor, profesor, gerente de mercadeo, gerente general y socio estratégico en diferentes compañías. Esa experiencia me permite mirar los problemas comerciales desde varias perspectivas: la del empresario que arriesga, la del equipo que ejecuta, la del cliente que decide y la del mercado que cambia.",
+    "Soy socio fundador de Grupo Diforma, gerente de mercadeo de Diforma, gerente general de Digitalli y socio estratégico de Marketeros Agencia. Desde estos roles he participado en proyectos de trade marketing, branding, e-commerce, automatización comercial, innovación y transformación digital para empresas en Colombia, Centroamérica, el Caribe y otros mercados de Latinoamérica.",
+    "Mi enfoque es práctico: entender el problema, ordenar la estrategia y ayudar a que las decisiones se conviertan en resultados.",
   ],
 };
 
 // ─── FAQ ─────────────────────────────────────────────────────────────────────
 export const FAQ = [
   {
-    q: "¿El diagnóstico es realmente de 45 minutos?",
-    a: "Sí. La sesión está diseñada para ser densa y eficiente. Antes de la llamada recibes un formulario breve para que yo llegue preparado y no perdamos tiempo en introducciones básicas.",
+    q: "¿Cómo es la sesión de diagnóstico, en la práctica?",
+    a: "Es una conversación de trabajo, no una presentación. Antes de la sesión recibes un formulario breve para que yo llegue preparado y podamos enfocarnos directamente en tu situación, sin perder tiempo en introducciones básicas.",
   },
   {
     q: "¿Qué pasa si quiero continuar trabajando contigo después del diagnóstico?",
     a: "Si al final del diagnóstico identificamos que hay una oportunidad de acompañamiento más profundo, lo conversamos. No existe ninguna presión — la decisión es completamente tuya.",
   },
   {
-    q: "¿Trabajo con empresas fuera de Colombia?",
-    a: "Sí. Trabajo con empresas en toda América Latina. Las sesiones son virtuales y la metodología está diseñada para adaptarse a diferentes contextos de mercado.",
+    q: "¿Trabajas con empresas fuera de Colombia?",
+    a: "Sí. Trabajo con empresas en Centroamérica, el Caribe y otros mercados de Latinoamérica. Las sesiones son virtuales y la metodología está diseñada para adaptarse a diferentes contextos de mercado.",
   },
   {
     q: "¿En qué idiomas trabajas?",
     a: "Español. Eventualmente en inglés para contextos puntuales.",
   },
   {
-    q: "¿Por qué el precio varía según el tamaño de la empresa?",
-    a: "Porque el valor estratégico de 45 minutos no es el mismo para una empresa de 10 personas que para una de 1.000. El impacto potencial escala — y la inversión debe ser proporcional.",
+    q: "¿Solo das consultoría o también ayudas con la ejecución?",
+    a: "Acompaño la estrategia y, cuando el proyecto lo requiere, conecto la ejecución con equipos especializados de mi ecosistema empresarial: trade marketing y punto de venta, diseño y canales digitales, innovación, y automatización comercial.",
   },
   {
     q: "¿Cómo sé si este diagnóstico es para mí?",
-    a: "Si eres dueño, gerente o director y sientes que tu empresa está estancada, que la competencia se está moviendo más rápido, o que tienes muchas iniciativas pero pocos resultados claros — este diagnóstico es exactamente para ti.",
+    a: "Si eres dueño, gerente o director y sientes que tu empresa está estancada, que el canal te está presionando el margen, o que tienes muchas iniciativas pero pocos resultados claros — este diagnóstico es exactamente para ti.",
   },
 ];
 
 // ─── CIERRE CTA ───────────────────────────────────────────────────────────────
 export const CLOSING = {
-  headline: "El momento correcto para actuar siempre es hoy.",
-  sub:      "Cada semana que pasa sin claridad estratégica es una semana que le regalas a tu competencia. Agenda tu diagnóstico ahora y empieza a moverte con dirección.",
-  cta:      "Agenda tu diagnóstico estratégico",
+  headline: "Si estás buscando crecer con más claridad, conversemos.",
+  sub:      "Si tu empresa tiene buen producto, experiencia en el mercado y ganas de crecer, pero necesita ordenar su estrategia comercial, fortalecer sus canales o adoptar nuevas herramientas con criterio, podemos tener una primera conversación. El objetivo no es venderte una fórmula. Es entender si puedo ayudarte y cuál sería el mejor punto de partida.",
+  cta:      "Agendar conversación estratégica",
 };

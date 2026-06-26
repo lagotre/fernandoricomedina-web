@@ -6,7 +6,7 @@ export default function Services() {
       <div className="container-max">
         {/* Header */}
         <div className="max-w-2xl mb-16">
-          <p className="text-brand-gold text-xs tracking-widest uppercase mb-4">Áreas de trabajo</p>
+          <p className="text-brand-gold text-xs tracking-widest uppercase mb-4">Frentes de trabajo</p>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight">
             Trabajo en el punto exacto donde la estrategia se convierte en resultado.
           </h2>
@@ -15,14 +15,10 @@ export default function Services() {
 
         {/* Services grid */}
         <div className="grid md:grid-cols-2 gap-6 mb-14">
-          {SERVICES.map((s, i) => (
+          {SERVICES.map((s) => (
             <div
               key={s.title}
-              className={`relative p-8 rounded-sm border transition-all duration-300 ${
-                i === 0
-                  ? "border-brand-gold/50 bg-brand-gold/5"
-                  : "border-white/10 bg-white/3 hover:border-white/20"
-              }`}
+              className="relative p-8 rounded-sm border border-white/10 bg-white/3 hover:border-white/20 transition-all duration-300"
             >
               {s.tag && (
                 <span className="absolute top-4 right-4 bg-brand-gold text-brand-dark text-xs font-semibold px-3 py-1 rounded-full">

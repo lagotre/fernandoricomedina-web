@@ -24,7 +24,7 @@ export default function Hero() {
           {/* Pre-headline badge */}
           <div className="inline-flex items-center gap-2 border border-brand-gold/30 text-brand-gold text-xs tracking-widest uppercase px-4 py-2 mb-8">
             <span className="w-1.5 h-1.5 rounded-full bg-brand-gold inline-block" />
-            Consultor Estratégico · Innovación · IA · Transformación Digital
+            Estrategia Comercial · Marketing · Canales · Inteligencia Artificial
           </div>
 
           {/* Main headline */}
@@ -36,9 +36,13 @@ export default function Hero() {
           <div className="w-16 h-0.5 bg-brand-gold mb-8" />
 
           {/* Sub */}
-          <p className="text-white/70 text-lg md:text-xl leading-relaxed mb-10 max-w-2xl">
-            {HERO.sub}
-          </p>
+          <div className="space-y-4 mb-10 max-w-2xl">
+            {HERO.sub.map((p, i) => (
+              <p key={i} className="text-white/70 text-lg md:text-xl leading-relaxed">
+                {p}
+              </p>
+            ))}
+          </div>
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4">
