@@ -16,7 +16,7 @@ export const SEO = {
 
 // ─── COPY HERO ───────────────────────────────────────────────────────────────
 export const HERO = {
-  headline:    "Consultoría en estrategia comercial, marketing, canales e inteligencia artificial para empresas que quieren crecer con más método.",
+  headline:    "Ayudo a empresas latinoamericanas a ordenar su estrategia comercial, fortalecer sus canales y aplicar marketing, innovación e inteligencia artificial con sentido práctico.",
   sub: [
     "Soy Fernando Rico Medina. Durante más de 27 años he trabajado con empresas manufactureras, marcas de consumo, agencias, equipos comerciales y compañías familiares que necesitan ordenar su crecimiento, fortalecer sus canales y tomar mejores decisiones de marketing y ventas.",
     "Mi trabajo no está en decirte cómo producir mejor. Está en ayudarte a que tu producto llegue mejor al mercado, se comunique con más claridad, gane visibilidad en el canal y construya ventas más rentables y sostenibles.",
