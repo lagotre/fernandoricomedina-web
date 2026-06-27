@@ -30,13 +30,21 @@ export default function Credibility() {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {ECOSYSTEM.companies.map((c) => (
-              <div key={c.name} className="bg-white/5 border border-white/10 rounded-sm p-6">
-                <img
-                  src={c.logo}
-                  alt={c.name}
-                  className="h-8 object-contain object-left brightness-0 invert opacity-80 mb-4"
-                />
-                <p className="text-white/60 text-sm leading-relaxed">{c.desc}</p>
+              <div key={c.name} className="flip-card h-48">
+                <div className="flip-card-inner">
+                  {/* Front: logo */}
+                  <div className="flip-card-front bg-white/5 border border-white/10 rounded-sm p-6 flex items-center justify-center">
+                    <img
+                      src={c.logo}
+                      alt={c.name}
+                      className="h-12 max-w-[75%] object-contain brightness-0 invert"
+                    />
+                  </div>
+                  {/* Back: offer */}
+                  <div className="flip-card-back bg-brand-gold/10 border border-brand-gold/30 rounded-sm p-6 flex items-center justify-center">
+                    <p className="text-white/80 text-sm leading-relaxed text-center">{c.desc}</p>
+                  </div>
+                </div>
               </div>
             ))}
           </div>

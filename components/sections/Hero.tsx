@@ -28,7 +28,7 @@ export default function Hero() {
 
         {/* Headline + image */}
         <div className="grid lg:grid-cols-[1.05fr_0.95fr] gap-10 lg:gap-16 items-center mb-10">
-          <h1 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-[50px] font-semibold text-white leading-snug lg:text-center">
+          <h1 className="font-display text-[19px] sm:text-2xl md:text-[29px] lg:text-[40px] font-semibold text-white leading-snug lg:text-center">
             {HERO.headline}
           </h1>
 

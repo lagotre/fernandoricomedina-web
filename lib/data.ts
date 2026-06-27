@@ -50,7 +50,7 @@ export const CREDIBILITY = {
 export const ECOSYSTEM = {
   eyebrow:  "Ecosistema empresarial",
   headline: "No trabajo solo: conecto estrategia con ejecución.",
-  intro:    "Una diferencia importante de mi trabajo es que puedo acompañar la estrategia y, cuando el proyecto lo requiere, conectar la ejecución con equipos especializados.",
+  intro:    "Una diferencia importante de mi trabajo es que combino visión estratégica con capacidad real de ejecución. Cuando el proyecto lo requiere, trabajo junto con los equipos senior de las empresas de las que soy socio, conectando marketing, diseño, innovación, tecnología, e-commerce y ejecución comercial.",
   companies: [
     {
       name: "Diforma In Store",
@@ -60,7 +60,7 @@ export const ECOSYSTEM = {
     {
       name: "Digitalli",
       logo: "/logo_digitalli-1.png",
-      desc: "Branding, diseño, contenido, sitios web, e-commerce, comunicación digital y activos comerciales para marcas y empresas.",
+      desc: "Branding, Diseño de Empaques y Contenido Visual para marcas de consumo masivo / FMCG",
     },
     {
       name: "Disenni",
