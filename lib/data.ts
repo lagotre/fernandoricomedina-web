@@ -18,9 +18,8 @@ export const SEO = {
 export const HERO = {
   headline:    "Ayudo a empresas latinoamericanas a ordenar su estrategia comercial, fortalecer sus canales y aplicar marketing, innovación e inteligencia artificial con sentido práctico.",
   sub: [
-    "Soy Fernando Rico Medina. Durante más de 27 años he trabajado con empresas manufactureras, marcas de consumo, agencias, equipos comerciales y compañías familiares que necesitan ordenar su crecimiento, fortalecer sus canales y tomar mejores decisiones de marketing y ventas.",
-    "Mi trabajo no está en decirte cómo producir mejor. Está en ayudarte a que tu producto llegue mejor al mercado, se comunique con más claridad, gane visibilidad en el canal y construya ventas más rentables y sostenibles.",
-    "Acompaño empresarios y equipos directivos en temas de estrategia comercial, trade marketing, shopper marketing, e-commerce, marca, innovación e inteligencia artificial aplicada a marketing y ventas.",
+    "Soy Fernando Rico. Durante más de 27 años he emprendido y acompañado empresas manufactureras, marcas de consumo, agencias, equipos comerciales y compañías familiares que buscan crecer con más claridad, fortalecer sus canales y tomar mejores decisiones de marketing y ventas.",
+    "Mi trabajo es ayudarte a que tu producto llegue mejor al mercado, se comunique con mayor precisión, gane visibilidad en los canales correctos y construya ventas más rentables y sostenibles, integrando estrategia comercial, shopper marketing, e-commerce, innovación e inteligencia artificial aplicada al negocio.",
   ],
   cta:         "Agendar conversación estratégica",
   ctaSecondary:"Ver cómo puedo ayudarte",
