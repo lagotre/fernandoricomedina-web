@@ -4,6 +4,10 @@ import Footer from "@/components/sections/Footer";
 
 export const metadata: Metadata = {
   title: "Herramientas | Fernando Rico Medina",
+  description: "Próximamente: herramientas prácticas para estrategia comercial, marketing e inteligencia artificial aplicada al negocio.",
+  alternates: {
+    canonical: "/herramientas",
+  },
 };
 
 export default function HerramientasPage() {
