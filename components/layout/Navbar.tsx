@@ -7,6 +7,7 @@ const navLinks = [
   { label: "Diagnóstico",  href: "/#diagnostico" },
   { label: "Metodología",  href: "/metodologia" },
   { label: "Sobre mí",     href: "/#sobre-mi" },
+  { label: "Testimonios",  href: "/testimonios" },
   { label: "Herramientas", href: "/herramientas" },
   { label: "FAQ",          href: "/#faq" },
 ];

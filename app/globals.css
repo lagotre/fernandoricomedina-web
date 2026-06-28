@@ -71,3 +71,22 @@ body {
 .flip-card-back {
   transform: rotateY(180deg);
 }
+
+/* Marquee ticker (Trayectoria) */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+.marquee-fade {
+  -webkit-mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+}

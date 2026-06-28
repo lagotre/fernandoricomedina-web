@@ -12,6 +12,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
+      url: `${SEO.url}/testimonios`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${SEO.url}/metodologia`,
       lastModified,
       changeFrequency: "yearly",

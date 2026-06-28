@@ -55,21 +55,25 @@ export const ECOSYSTEM = {
     {
       name: "Diforma In Store",
       logo: "/Diforma Group.png",
+      url:  "https://diformainstore.com/",
       desc: "Diseño y fabricación de soluciones de visibilidad, exhibición, material POP y activación para marcas en punto de venta.",
     },
     {
       name: "Digitalli",
       logo: "/logo_digitalli-1.png",
+      url:  "https://digitalliagency.com/",
       desc: "Branding, Diseño de Empaques y Contenido Visual para marcas de consumo masivo / FMCG",
     },
     {
       name: "Disenni",
       logo: "/logo-disenni-2019.png",
+      url:  "https://disenni.net/",
       desc: "Innovación, diseño estratégico, cultura de innovación, metodologías de creatividad aplicada y gestión del cambio.",
     },
     {
       name: "Marketeros Agencia",
       logo: "/marketeros-logo-refinal.png",
+      url:  "https://www.marketerosagencia.com/",
       desc: "CRM, automatización comercial, marketing digital, Zoho, performance e integración de procesos comerciales y digitales.",
     },
   ],
@@ -223,6 +227,90 @@ export const ABOUT = {
     "He sido empresario, consultor, profesor, gerente de mercadeo, gerente general y socio estratégico en diferentes compañías. Esa experiencia me permite mirar los problemas comerciales desde varias perspectivas: la del empresario que arriesga, la del equipo que ejecuta, la del cliente que decide y la del mercado que cambia.",
     "Soy socio fundador de Grupo Diforma, gerente de mercadeo de Diforma, gerente general de Digitalli y socio estratégico de Marketeros Agencia. Desde estos roles he participado en proyectos de trade marketing, branding, e-commerce, automatización comercial, innovación y transformación digital para empresas en Colombia, Centroamérica, el Caribe y otros mercados de Latinoamérica.",
     "Mi enfoque es práctico: entender el problema, ordenar la estrategia y ayudar a que las decisiones se conviertan en resultados.",
+  ],
+};
+
+// ─── TRAYECTORIA ──────────────────────────────────────────────────────────────
+export const TRAYECTORIA = {
+  eyebrow:  "Trayectoria",
+  headline: "Marcas · Pymes · Institución",
+  intro:    "Marcas y empresas que han confiado en mi trabajo.",
+  groups: [
+    {
+      label: "Marcas multinacionales y regionales · Shopper Marketing",
+      items: [
+        "Nestlé",
+        "Colombina",
+        "Unilever",
+        "Bermudez Group",
+        "Vemco Ltd",
+        "Puerto Rico Suppliers Group",
+        "DirecTV Caribbean",
+        "VSH Foods",
+        "Supermercados Econo",
+        "Casinos Grupo Vicca",
+      ],
+    },
+    {
+      label: "Pymes y marcas con las que he trabajado de cerca",
+      items: [
+        "Angel Jeans",
+        "Ópticas 20/20",
+        "Yanuba",
+        "Newline",
+        "Zansui",
+        "Felcan",
+        "Maxiempack",
+        "Docurrapid",
+        "Snack 360",
+        "Effecto Angel",
+      ],
+    },
+    {
+      label: "Instituciones donde he sido facilitador y conferencista",
+      items: [
+        "PROCOLOMBIA",
+        "Cámara de Comercio de Bogotá",
+        "FENALCO",
+        "UNIPYMES",
+        "ANDIGRAF",
+        "CESA",
+        "ENEL",
+      ],
+    },
+  ],
+};
+
+// ─── TESTIMONIOS ──────────────────────────────────────────────────────────────
+export const TESTIMONIOS = {
+  eyebrow:  "5 Voces · 5 Contextos",
+  headline: "Lo que dicen quienes ya trabajaron conmigo.",
+  items: [
+    {
+      quote:   "Sus aportes y reflexiones en el panel «Cómo las tendencias de consumo están revolucionando la experiencia en los centros comerciales» fueron muy valiosos y tuvieron gran acogida entre la audiencia.",
+      author:  "FENALCO Colombia",
+      context: "Panel sectorial centros comerciales",
+    },
+    {
+      quote:   "Fernando se ha presentado como un consultor honesto, con un asesoramiento de altos estándares de calidad y servicio. Su conocimiento técnico y práctico ha hecho que nuestras marcas tengan resultados exitosos.",
+      author:  "Angela Escamilla",
+      context: "Gerente Ópticas · Grupo 20/20",
+    },
+    {
+      quote:   "La consultoría de Fernando aceleró nuestro proceso de apertura de nuevos mercados internacionales y generó ventas reales en nuestra tienda virtual y otros canales.",
+      author:  "Diana Molina Caicedo",
+      context: "Gerente · Efecto Angel SAS",
+    },
+    {
+      quote:   "Fernando nos asesoró en marketing digital y transformación digital para el mercado internacional: branding estratégico, gestión de contenido y desarrollo de plataforma web con catálogo online. Lo recomendamos ampliamente.",
+      author:  "Maxiempack",
+      context: "Manufactura · Empaques",
+    },
+    {
+      quote:   "Fernando fue nuestro consultor y desarrollador del proyecto «Marketing Internacional»: digitalización de procesos documentales y venta de servicios profesionales a través de plataforma online. Profesionalismo, seriedad, cumplimiento y alto grado de confidencialidad.",
+      author:  "Docurrapid Corp",
+      context: "Marketing digital · Internacional",
+    },
   ],
 };
 
