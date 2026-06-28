@@ -160,7 +160,7 @@ export const DIAGNOSTIC = {
   headline: "Una conversación para ordenar el problema y definir prioridades",
   sub: [
     "El diagnóstico estratégico es una sesión de trabajo para entender tu situación actual, revisar los principales retos comerciales y definir una ruta inicial de acción.",
-    "No es una charla genérica ni una presentación comercial. Es una conversación estructurada para identificar dónde puede estar el mayor bloqueo: canal, propuesta de valor, visibilidad, equipo comercial, comunicación, e-commerce, pricing, marca o adopción tecnológica.",
+    "No es una presentación comercial. Es una conversación estructurada para identificar dónde puede estar el mayor bloqueo: canal, propuesta de valor, visibilidad, equipo comercial, comunicación, e-commerce, pricing, marca o adopción tecnológica.",
   ],
   included: [
     "Qué problema conviene resolver primero",
@@ -169,6 +169,25 @@ export const DIAGNOSTIC = {
     "Qué capacidades necesita fortalecer tu equipo",
     "Qué rol podría tener la inteligencia artificial en tu operación comercial",
   ],
+  plans: [
+    {
+      name: "Pyme pequeña",
+      desc: "Hasta 20 empleados",
+      tier: "Sesión esencial",
+      price: "USD 80",
+    },
+    {
+      name: "Pyme mediana",
+      desc: "20 a 60 empleados",
+      tier: "Sesión completa",
+      price: "USD 120",
+      featured: true,
+    },
+  ],
+  promise: {
+    label: "Mi promesa:",
+    text: "Si después de nuestra conversación entiendo que no soy la persona indicada para tu caso, o que necesitas otro profesional, te devuelvo el 100% de lo que pagaste.",
+  },
   cta: "Agendar diagnóstico estratégico",
 };
 
