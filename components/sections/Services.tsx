@@ -15,10 +15,12 @@ export default function Services() {
 
         {/* Services grid */}
         <div className="grid md:grid-cols-2 gap-6 mb-14">
-          {SERVICES.map((s) => (
+          {SERVICES.map((s, i) => (
             <div
               key={s.title}
-              className="relative p-8 rounded-sm border border-white/10 bg-white/3 hover:border-white/20 transition-all duration-300"
+              className={`relative p-8 rounded-sm border border-white/10 bg-white/3 hover:border-white/20 transition-all duration-300 ${
+                i === SERVICES.length - 1 ? "md:col-span-2" : ""
+              }`}
             >
               {s.tag && (
                 <span className="absolute top-4 right-4 bg-brand-gold text-brand-dark text-xs font-semibold px-3 py-1 rounded-full">
@@ -27,7 +29,7 @@ export default function Services() {
               )}
               <h3 className="font-display text-xl font-semibold mb-3 text-white">{s.title}</h3>
               <p className="text-white/60 text-sm leading-relaxed mb-6">{s.desc}</p>
-              <ul className="space-y-2">
+              <ul className={i === SERVICES.length - 1 ? "grid sm:grid-cols-2 gap-2 gap-x-6" : "space-y-2"}>
                 {s.bullets.map((b) => (
                   <li key={b} className="flex items-start gap-2 text-white/70 text-sm">
                     <span className="text-brand-gold mt-0.5">✓</span>

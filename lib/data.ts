@@ -29,7 +29,7 @@ export const HERO = {
 export const CREDIBILITY = {
   stats: [
     { value: "27+", label: "años de experiencia empresarial" },
-    { value: "4",   label: "roles ejecutivos simultáneos" },
+    { value: "50+", label: "pymes acompañadas en Colombia y el Caribe" },
     { value: "LATAM", label: "alcance geográfico" },
     { value: "IA",  label: "implementación estratégica real" },
   ],
