@@ -42,42 +42,55 @@ export default function Hero() {
           </div>
         </div>
 
-        <div>
-          {/* Gold divider */}
-          <div className="w-16 h-0.5 bg-brand-gold mb-8" />
-
-          {/* Sub */}
-          <div className="space-y-4 mb-10 max-w-2xl">
-            {HERO.sub.map((p, i) => (
-              <p key={i} className="text-white/70 text-lg md:text-xl leading-relaxed">
-                {p}
-              </p>
-            ))}
+        {/* Photo + sub copy/CTAs */}
+        <div className="grid lg:grid-cols-[0.85fr_1.15fr] gap-10 lg:gap-16 items-center">
+          {/* Photo column */}
+          <div className="flex items-center justify-center lg:justify-start order-2 lg:order-1">
+            <img
+              src="/fernando-rico-hero.png"
+              alt="Fernando Rico Medina"
+              className="w-full max-w-sm object-contain"
+            />
           </div>
 
-          {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Button href={LINKS.calendly} variant="primary" className="text-base px-8 py-4">
-              {HERO.cta}
-            </Button>
-            <Button href="#metodologia" variant="outline" className="text-base px-8 py-4">
-              {HERO.ctaSecondary}
-            </Button>
-          </div>
+          {/* Text + CTAs column */}
+          <div className="order-1 lg:order-2">
+            {/* Gold divider */}
+            <div className="w-16 h-0.5 bg-brand-gold mb-8" />
 
-          {/* Trust signals */}
-          <div className="mt-16 pt-8 border-t border-white/10 flex flex-wrap gap-6">
-            {[
-              "27 años de experiencia",
-              "Colombia y LATAM",
-              "IA aplicada a negocios reales",
-            ].map((item) => (
-              <div key={item} className="flex items-center gap-2 text-white/50 text-sm">
-                <span className="text-brand-gold">✓</span>
-                {item}
-              </div>
-            ))}
+            {/* Sub */}
+            <div className="space-y-4 mb-10 max-w-2xl">
+              {HERO.sub.map((p, i) => (
+                <p key={i} className="text-white/70 text-lg md:text-xl leading-relaxed">
+                  {p}
+                </p>
+              ))}
+            </div>
+
+            {/* CTAs */}
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button href={LINKS.calendly} variant="primary" className="text-base px-8 py-4">
+                {HERO.cta}
+              </Button>
+              <Button href="#metodologia" variant="outline" className="text-base px-8 py-4">
+                {HERO.ctaSecondary}
+              </Button>
+            </div>
           </div>
+        </div>
+
+        {/* Trust signals */}
+        <div className="mt-16 pt-8 border-t border-white/10 flex flex-wrap gap-6">
+          {[
+            "27 años de experiencia",
+            "Colombia y LATAM",
+            "IA aplicada a negocios reales",
+          ].map((item) => (
+            <div key={item} className="flex items-center gap-2 text-white/50 text-sm">
+              <span className="text-brand-gold">✓</span>
+              {item}
+            </div>
+          ))}
         </div>
       </div>
 
