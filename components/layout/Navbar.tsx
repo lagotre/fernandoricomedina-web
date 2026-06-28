@@ -30,7 +30,7 @@ export default function Navbar() {
     >
       <div className="container-max flex items-center justify-between px-4 sm:px-6 lg:px-8 h-16 md:h-20">
         {/* Logo / Name */}
-        <a href="#" className="text-white font-display font-semibold text-lg tracking-tight">
+        <a href="/" className="text-white font-display font-semibold text-lg tracking-tight">
           Fernando Rico<span className="text-brand-gold">.</span>
         </a>
 
