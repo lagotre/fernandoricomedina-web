@@ -3,7 +3,7 @@ import { LINKS, SEO } from "@/lib/data";
 const footerLinks = [
   { label: "Servicios",    href: "/#servicios" },
   { label: "Diagnóstico",  href: "/#diagnostico" },
-  { label: "Metodología",  href: "/#metodologia" },
+  { label: "Metodología",  href: "/metodologia" },
   { label: "Sobre mí",     href: "/#sobre-mi" },
   { label: "Herramientas", href: "/herramientas" },
   { label: "FAQ",          href: "/#faq" },

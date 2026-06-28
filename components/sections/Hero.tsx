@@ -72,7 +72,7 @@ export default function Hero() {
               <Button href={LINKS.calendly} variant="primary" className="text-base px-8 py-4">
                 {HERO.cta}
               </Button>
-              <Button href="#metodologia" variant="outline" className="text-base px-8 py-4">
+              <Button href="/metodologia" variant="outline" className="text-base px-8 py-4">
                 {HERO.ctaSecondary}
               </Button>
             </div>

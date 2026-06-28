@@ -5,7 +5,7 @@ import { LINKS } from "@/lib/data";
 const navLinks = [
   { label: "Servicios",    href: "/#servicios" },
   { label: "Diagnóstico",  href: "/#diagnostico" },
-  { label: "Metodología",  href: "/#metodologia" },
+  { label: "Metodología",  href: "/metodologia" },
   { label: "Sobre mí",     href: "/#sobre-mi" },
   { label: "Herramientas", href: "/herramientas" },
   { label: "FAQ",          href: "/#faq" },

@@ -215,29 +215,6 @@ export const METHODOLOGY = [
   },
 ];
 
-// ─── EXPERIENCIA / SECTORES ───────────────────────────────────────────────────
-export const EXPERIENCE = {
-  sectors: [
-    "Retail y consumo masivo",
-    "Marketing experiencial",
-    "Trade marketing",
-    "Customer experience",
-    "Transformación digital",
-    "Innovación corporativa",
-    "Consultoría estratégica",
-    "Servicios profesionales",
-    "Agencias de marketing",
-    "Industria manufacturera",
-  ],
-  highlights: [
-    "Gerente Comercial con P&L a cargo en entornos de alta competencia",
-    "Consultor con experiencia en pymes y corporaciones multinacionales",
-    "Diseñador Industrial con pensamiento sistémico aplicado a los negocios",
-    "Experto en marketing digital, experiencial y data-driven",
-    "Pionero en la implementación práctica de IA para equipos de negocio",
-  ],
-};
-
 // ─── SOBRE MÍ ─────────────────────────────────────────────────────────────────
 export const ABOUT = {
   headline: "He construido empresas, acompañado marcas y aprendido de los retos reales del mercado.",
